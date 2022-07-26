@@ -3,6 +3,7 @@ This is client-server app developed by me on C++ with using SQLite3 and Boost li
 
 App was developed under G++. 
 To compile server use command: g++ -std=c++17 server.cpp database/database.cpp -l sqlite3  -o server
+
 To compile client use command: g++ -std=c++17 client.cpp -o client
 
 To activate server u need to pass port on call e. g. ./server 2000
