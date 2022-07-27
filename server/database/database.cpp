@@ -23,7 +23,7 @@ void DataBase::createTables()
 {
 	char *zErrMsg = 0;
 
-	char * sql = "CREATE TABLE IF NOT EXISTS Statistics("  \
+	const char * sql = "CREATE TABLE IF NOT EXISTS Statistics("  \
 		"UUID             TEXT    NOT NULL," \
 		"Time             TEXT    NOT NULL," \
 		"X                REAL     NOT NULL," \
